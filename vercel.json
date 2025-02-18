@@ -13,9 +13,9 @@
     }
   ],
   "env": {
-    "OPENAI_API_KEY": "@openai-api-key",
-    "PINECONE_API_KEY": "@pinecone-api-key",
-    "PINECONE_ENVIRONMENT": "@pinecone-environment",
+    "OPENAI_API_KEY": "@OPENAI_API_KEY",
+    "PINECONE_API_KEY": "@PINECONE_API_KEY",
+    "PINECONE_ENVIRONMENT": "@PINECONE_ENVIRONMENT",
     "GOOGLE_APPLICATION_CREDENTIALS": "@google-application-credentials",
     "GOOGLE_DRIVE_FOLDER_ID": "@google-drive-folder-id"
   }
