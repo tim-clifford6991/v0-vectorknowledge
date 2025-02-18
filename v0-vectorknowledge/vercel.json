@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": "@openai-api-key",
+    "PINECONE_API_KEY": "@pinecone-api-key",
+    "PINECONE_ENVIRONMENT": "@pinecone-environment",
+    "GOOGLE_APPLICATION_CREDENTIALS": "@google-application-credentials",
+    "GOOGLE_DRIVE_FOLDER_ID": "@google-drive-folder-id"
+  }
+}
+
